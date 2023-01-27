@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#title{
+  animation: 15s ease-out 0s 1 fadeOut;
+  font-size: 20px;
+  position: absolute;
+  font-family: 'Orbitron', sans-serif;
+  z-index: 3;
+  color: rgba(244, 131, 12, 0.0);
+  -webkit-text-stroke: 0.0vh transparent;
+}
+
+#title:hover{
+  color: rgba(244, 131, 12, 0.7);
+  font-size: 20px;
+  position: absolute;
+  font-family: 'Orbitron', sans-serif;
+  z-index: 3;
+  -webkit-text-stroke: 0.05vh #521BFF;
+}
+
+
+@keyframes fadeOut {
+  0% {
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+    z-index: 3;
+    color: rgba(244, 131, 12, 1.0);
+    -webkit-text-stroke: 0.05vh #521BFF;
+  }
+  100% {
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+    z-index: 3;
+    color: rgba(244, 131, 12, 0.0);
+    -webkit-text-stroke: 0.0vh transparent;
+  }
+}
